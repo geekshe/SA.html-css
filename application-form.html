@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<title>Application Form</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1>Apply for a role at UberMelon</h1>
+
+<p>Take your ideas to the next level and make something that people use everyday. Something that changes the physical world&mdash;and does it fast. We still have a long way to go. Hop in and help us get there. Remember: UberMelon. It's like Uber...for melons! </p>
+
+<form action="/application-success">
+	<label for="first-name">First Name: </label>
+	<input id="first-name" type="text" name="textfield"><br>
+
+  <label for="last-name" class="embolden">Last Name: </label>
+  <input id="last_name" type="text" name="textfield"><br>
+  
+  <label for="salary">Salary Requirements: </label>
+  <input id="salary" type="text" name="textfield"><br>
+  
+  <label for="role">Desired Role: </label>
+  <select id="role" name="select">
+  	<option value="software">Software Engineer</option>
+    <option value="qa">QA Engineer</option>
+    <option value="pm">Product Manager</option>
+  </select><br>
+  <input type="submit" name="submit" value="Apply">
+</form>
+
+
+<!--Directions
+Part 1: HTML
+
+Add to the HTML document application-form.html so that it has the following items.
+
+    A form that asks the user:
+        their first and last name (as separate fields),
+        their salary requirement as a number, and
+        which job they are applying for, from a list of:
+            Software Engineer
+            QA Engineer
+            Product Manager
+    The form should also have a submit button that submits the form to the URL path /application-success. This should be a POST request. (For now, just focus on the HTML requirements for this request. Don't build a Flask route, yet.)
+    The page should have a large heading and some explanatory text, as well.
+    Add the elements to make your HTML form accessible to screen readers. For more information, see http://webaim.org/techniques/forms/controls.
+
+Part 2: CSS
+
+Open the CSS file, styles.css, and use this to stylize the HTML file, application-form.html.
+
+First, edit the HTML file to reference the CSS file. Then, complete each of the following styles using CSS:
+
+    Change the background color of all of the form input boxes and submit button to be yellow. (Can you do this for all input boxes without having to stylize each one independently?)
+    Change the text in the last name field to be bold.
+    Draw a border around the instruction box.
+ -->
+
+
+</body>
+</html>
